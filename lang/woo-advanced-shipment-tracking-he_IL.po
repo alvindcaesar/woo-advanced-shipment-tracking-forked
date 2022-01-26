@@ -1,0 +1,1921 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Advanced Shipment Tracking\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-09-01 05:43+0000\n"
+"PO-Revision-Date: 2020-09-21 07:35+0000\n"
+"Last-Translator: zorem DEV\n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1"
+
+#: woocommerce-advanced-shipment-tracking.php:122
+#, php-format
+msgid ""
+"Please install and activate %sWooCommerce%s for WooCommerce Advanced "
+"Shipment Tracking!"
+msgstr ""
+"יש להתקין ולהפעיל את %sווקומרס%s כדי להשתמש בתוסף מעקב המשלוחים מתקדם של "
+"ווקומרס!"
+
+#: woocommerce-advanced-shipment-tracking.php:468
+#, php-format
+msgid ""
+"We detected %s orders that use the Delivered order status, You can reassign "
+"these orders to a different status"
+msgstr ""
+
+#: woocommerce-advanced-shipment-tracking.php:480
+#, php-format
+msgid ""
+"We detected %s orders that use the Partially Shipped order status, You can "
+"reassign these orders to a different status"
+msgstr ""
+
+#: woocommerce-advanced-shipment-tracking.php:492
+#, php-format
+msgid ""
+"We detected %s orders that use the Updated Tracking order status, You can "
+"reassign these orders to a different status"
+msgstr ""
+
+#: woocommerce-advanced-shipment-tracking.php:502
+#: includes/views/admin_options_osm.php:139
+#, php-format
+msgid ""
+"<strong>Note:</strong> - If you use the custom order status, when you "
+"deactivate the plugin, you must register the order status, otherwise these "
+"orders will not display on your orders admin. You can find more information "
+"and the code <a href=\"%s\" target=\"blank\">snippet</a> to use in functions."
+"php here."
+msgstr ""
+"הערה: - אם אתה משתמש בסטטוס מותאם אישית, כאשר אתה מבטל אותו או מסיר את "
+"הפלאגין, עליך לרשום את סטטוס ההזמנה בווקומרס, אחרת ההזמנות הללו לא יוצגו "
+"במנהל ההזמנות שלך. תוכל למצוא מידע נוסף ואת קטע הקוד לשימוש ב-functions.php "
+"<a href=\"%s\" target=\"blank\">כאן</a>.\n"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:158
+#: includes/class-wc-advanced-shipment-tracking-front.php:360
+#: includes/class-wc-advanced-shipment-tracking-front.php:385
+#: includes/class-wc-advanced-shipment-tracking-front.php:412
+msgid ""
+"To track your order please enter your Order ID in the box below and press "
+"the \"Track\" button. This was given to you on your receipt and in the "
+"confirmation email you should have received."
+msgstr ""
+"כדי לעקוב אחר ההזמנה שלך, הזן את מזהה ההזמנה שלך בתיבה למטה ולחץ על כפתור "
+"\"עקוב\". זה ניתן לך עם קבלתך ובדוא\"ל האישור שהיית צריך לקבל.\n"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:159
+#: includes/class-wc-advanced-shipment-tracking-front.php:160
+#: includes/class-wc-advanced-shipment-tracking-front.php:361
+#: includes/class-wc-advanced-shipment-tracking-front.php:362
+#: includes/class-wc-advanced-shipment-tracking-front.php:386
+#: includes/class-wc-advanced-shipment-tracking-front.php:387
+#: includes/class-wc-advanced-shipment-tracking-front.php:413
+#: includes/class-wc-advanced-shipment-tracking-front.php:414
+msgid "Found in your order confirmation email."
+msgstr ""
+"נמצא באימייל של אישור ההזמנה שלך.\n"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:160
+#: includes/class-wc-advanced-shipment-tracking-front.php:362
+#: includes/class-wc-advanced-shipment-tracking-front.php:387
+#: includes/class-wc-advanced-shipment-tracking-front.php:414
+msgid "Order Email"
+msgstr ""
+"הזמנת דוא\"ל\n"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:163
+#: includes/class-wc-advanced-shipment-tracking-front.php:365
+#: includes/class-wc-advanced-shipment-tracking-front.php:390
+#: includes/class-wc-advanced-shipment-tracking-front.php:417
+#: includes/customizer/class-wc-tracking-info-customizer.php:149
+#: includes/customizer/class-wc-tracking-info-customizer.php:677
+#: templates/emails/tracking-info.php:311
+#: templates/myaccount/tracking-info.php:232
+msgid "Track"
+msgstr "מעקב הזמנה"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:251
+#: includes/class-wc-advanced-shipment-tracking-front.php:268
+#: includes/class-wc-advanced-shipment-tracking-front.php:504
+#: includes/class-wc-advanced-shipment-tracking-front.php:521
+#, php-format
+msgid "Shipment - %s (out of %s)"
+msgstr ""
+"משלוח -% s (מתוך% s)\n"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:284
+#: includes/class-wc-advanced-shipment-tracking-front.php:537
+msgid "Tracking details not found in TrackShip"
+msgstr "פרטי מעקב לא נמצאו ב -TrackShip"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:366
+msgid "Order not found."
+msgstr "הזמנה לא נמצאה"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:418
+msgid "Tracking details not found."
+msgstr "פרטי מעקב לא נמצאו"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:597
+#: includes/class-wc-advanced-shipment-tracking-front.php:627
+#: includes/class-wc-advanced-shipment-tracking-front.php:1205
+#: includes/class-wc-advanced-shipment-tracking-front.php:1223
+#: includes/class-wc-advanced-shipment-tracking-front.php:1358
+#: includes/class-wc-advanced-shipment-tracking-front.php:1376
+msgid "Est. Delivery Date"
+msgstr ""
+"הערכה תאריך משלוח\n"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:766
+#: includes/class-wc-advanced-shipment-tracking-front.php:945
+msgid "Tracking Details"
+msgstr "פרטי מעקב הזמנה"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:772
+#: includes/class-wc-advanced-shipment-tracking-front.php:855
+#: includes/class-wc-advanced-shipment-tracking-front.php:952
+#: includes/class-wc-advanced-shipment-tracking-front.php:1049
+msgid "Destination Details"
+msgstr "תאור היעד"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:811
+#: includes/class-wc-advanced-shipment-tracking-front.php:896
+#: includes/class-wc-advanced-shipment-tracking-front.php:999
+#: includes/class-wc-advanced-shipment-tracking-front.php:1090
+msgid "Origin Details"
+msgstr "מידע על מקור המשלוח"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:846
+#: includes/class-wc-advanced-shipment-tracking-front.php:933
+#: includes/class-wc-advanced-shipment-tracking-front.php:1042
+#: includes/class-wc-advanced-shipment-tracking-front.php:1127
+#: includes/class-wc-advanced-shipment-tracking-front.php:1347
+#: includes/class-wc-advanced-shipment-tracking-front.php:1461
+msgid "view more"
+msgstr "הצג עוד"
+
+#: includes/class-wc-advanced-shipment-tracking-front.php:847
+#: includes/class-wc-advanced-shipment-tracking-front.php:934
+#: includes/class-wc-advanced-shipment-tracking-front.php:1043
+#: includes/class-wc-advanced-shipment-tracking-front.php:1128
+#: includes/class-wc-advanced-shipment-tracking-front.php:1348
+#: includes/class-wc-advanced-shipment-tracking-front.php:1462
+msgid "view less"
+msgstr "הצג פחות"
+
+#: includes/class-wc-advanced-shipment-tracking.php:141
+#: includes/class-wc-advanced-shipment-tracking.php:223
+#: includes/class-wc-advanced-shipment-tracking-admin.php:252
+#: includes/class-wc-advanced-shipment-tracking-admin.php:303
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:197
+msgid "Shipment Tracking"
+msgstr "מעקב משלוחים"
+
+#: includes/class-wc-advanced-shipment-tracking.php:246
+#: includes/class-wc-advanced-shipment-tracking.php:410
+msgid "Track Shipment"
+msgstr ""
+"עקוב אחר המשלוח\n"
+
+#. 1: shipping date
+#: includes/class-wc-advanced-shipment-tracking.php:256
+#, php-format
+msgid "Shipped on %s"
+msgstr "נשלח ב- %s"
+
+#: includes/class-wc-advanced-shipment-tracking.php:310
+#: includes/class-wc-advanced-shipment-tracking-settings.php:478
+msgid "Mark as Shipped?"
+msgstr "סמן את ההזמנה כ״נשלחה״"
+
+#: includes/class-wc-advanced-shipment-tracking.php:313
+#: includes/class-wc-advanced-shipment-tracking-settings.php:481
+msgid "Mark as Completed?"
+msgstr "סמן את ההזמנה כ״הושלמה״"
+
+#: includes/class-wc-advanced-shipment-tracking.php:325
+msgid "Add Tracking Info"
+msgstr "הוסף פרטי מעקב"
+
+#: includes/class-wc-advanced-shipment-tracking.php:329
+#: includes/class-wc-advanced-shipment-tracking-settings.php:493
+msgid "Tracking number:"
+msgstr "מספר מעקב"
+
+#: includes/class-wc-advanced-shipment-tracking.php:334
+#: includes/class-wc-advanced-shipment-tracking-settings.php:497
+#: includes/class-wc-advanced-shipment-tracking-settings.php:499
+msgid "Shipping Provider:"
+msgstr "ספק משלוח"
+
+#: includes/class-wc-advanced-shipment-tracking.php:335
+msgid "Select Provider"
+msgstr "בחר ספק משלוח"
+
+#: includes/class-wc-advanced-shipment-tracking.php:372
+#: includes/class-wc-advanced-shipment-tracking-settings.php:519
+msgid "Product Code:"
+msgstr "קוד מוצר"
+
+#: includes/class-wc-advanced-shipment-tracking.php:380
+#: includes/class-wc-advanced-shipment-tracking-settings.php:523
+msgid "Date shipped:"
+msgstr "תאריך משלוח:"
+
+#: includes/class-wc-advanced-shipment-tracking.php:381
+#: includes/class-wc-advanced-shipment-tracking.php:384
+#: includes/class-wc-advanced-shipment-tracking-settings.php:524
+#: includes/class-wc-advanced-shipment-tracking-settings.php:524
+msgid "Y-m-d"
+msgstr ""
+
+#: includes/class-wc-advanced-shipment-tracking.php:393
+#: includes/class-wc-advanced-shipment-tracking-settings.php:533
+msgid "Mark order as:"
+msgstr ""
+"שנה הזמנה כ:\n"
+
+#: includes/class-wc-advanced-shipment-tracking.php:396
+#: includes/class-wc-advanced-shipment-tracking-settings.php:536
+msgid "Partial Shipped"
+msgstr ""
+"חלקי נשלח\n"
+
+#: includes/class-wc-advanced-shipment-tracking.php:409
+#: includes/class-wc-advanced-shipment-tracking-settings.php:548
+msgid "Save Tracking"
+msgstr "שמירת פרטי מעקב"
+
+#: includes/class-wc-advanced-shipment-tracking.php:410
+msgid "Preview:"
+msgstr "תצוגה מקדימה:"
+
+#: includes/class-wc-advanced-shipment-tracking.php:661
+#, php-format
+msgid ""
+"Tracking info was deleted for tracking provider %s with tracking number %s"
+msgstr ""
+"פרטי המעקב נמחקו עבור ספק המעקב% s עם מספר המעקב% s\n"
+
+#: includes/class-wc-advanced-shipment-tracking.php:1008
+#: includes/class-wc-advanced-shipment-tracking.php:1095
+#, php-format
+msgid "Order was shipped with %s and tracking number is: %s"
+msgstr "ההזמנה נשלחה עם %s, מספר המעקב הוא %s"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:138
+#: includes/class-wc-advanced-shipment-tracking-settings.php:183
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1494
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:710
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:784
+#: includes/customizer/class-wcast-customizer.php:187
+#: includes/customizer/class-wc-delivered-email-customizer.php:125
+#: includes/views/admin_status_notifications.php:124
+#: includes/views/admin_options_osm.php:23
+msgid "Delivered"
+msgstr "נמסר ללקוח"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:143
+#, php-format
+msgid "Delivered <span class=\"count\">(%s)</span>"
+msgid_plural "Delivered <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+"הועבר <span class = \"count\"> (% s) </span>\n"
+msgstr[1] ""
+"הועבר <span class = \"count\"> (% s) </span>\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:152
+#: includes/class-wc-advanced-shipment-tracking-settings.php:198
+#: includes/views/admin_options_osm.php:106
+msgid "Updated Tracking"
+msgstr "עדכון פרטי משלוח"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:157
+#, php-format
+msgid "Updated Tracking <span class=\"count\">(%s)</span>"
+msgid_plural "Updated Tracking <span class=\"count\">(%s)</span>"
+msgstr[0] "עדכון פרטי משלוח <span class = \"count\"> (% s) </span>"
+msgstr[1] ""
+"מעקב מעודכן <span class = \"count\"> (% s) </span>\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:166
+#: includes/class-wc-advanced-shipment-tracking-settings.php:212
+#: includes/views/admin_options_osm.php:65
+msgid "Partially Shipped"
+msgstr ""
+"נשלח חלקית\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:171
+#, php-format
+msgid "Partially Shipped <span class=\"count\">(%s)</span>"
+msgid_plural "Partially Shipped <span class=\"count\">(%s)</span>"
+msgstr[0] "נשלח חלקית <span class = \"count\"> (% s) </span>"
+msgstr[1] "נשלח חלקית <span class = \"count\"> (% s) </span>"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:331
+#: includes/class-wc-advanced-shipment-tracking-settings.php:479
+#: includes/class-wc-advanced-shipment-tracking-admin.php:851
+msgid "Shipped"
+msgstr "נשלחה"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:348
+#, php-format
+msgid "Shipped <span class=\"count\">(%s)</span>"
+msgid_plural "Shipped <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+"נשלח <span class = \"count\"> (% s) </span>\n"
+msgstr[1] ""
+"נשלח <span class = \"count\"> (% s) </span>\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:362
+msgid "Change status to shipped"
+msgstr ""
+"שנה סטטוס ההזמנה ל״נשלח ללקוח״\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:482
+msgid "Completed"
+msgstr "הושלם"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:490
+msgid "Add Tracking Number"
+msgstr "הוסף מספר מעקב"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:563
+msgid "Resend delivered order notification"
+msgstr ""
+"שלח שוב את הודעת ההזמנה לסטטוס נמסר ללקוח\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:767
+msgid "There are some issue with sync, Please Retry."
+msgstr ""
+"יש כמה בעיות בסנכרון, אנא נסה שוב.\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:782
+#: includes/class-wc-advanced-shipment-tracking-settings.php:797
+#: includes/class-wc-advanced-shipment-tracking-settings.php:812
+msgid "view details"
+msgstr ""
+"הצג פרטים\n"
+
+#: includes/class-wc-advanced-shipment-tracking-settings.php:783
+#: includes/class-wc-advanced-shipment-tracking-settings.php:798
+#: includes/class-wc-advanced-shipment-tracking-settings.php:813
+msgid "hide details"
+msgstr ""
+"הסתר פרטים\n"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:194
+msgid ""
+"Get Shipment Status is limited to 100 orders at a time, please select up to "
+"100 orders."
+msgstr "קבל סטטוס המשלוח מוגבל ל 100 הזמנות בכל פעם, אנא בחר עד 100 הזמנות."
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:236
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:150
+msgid "Data saved successfully."
+msgstr "נשמר בהצלחה"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:237
+msgid "Really delete this entry? This will not be undo."
+msgstr "האם למחוק את הערך באמת? פעולה זו לא ניתנת לביטול"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:238
+msgid "You can upload only csv file."
+msgstr "ניתן להעלות רק קובץ csv."
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:239
+msgid "This browser does not support HTML5."
+msgstr "דפדפן זה אינו תומך ב- HTML5."
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:240
+msgid "Please upload a valid CSV file."
+msgstr "נא להעלות קובץ CSV חוקי."
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:310
+#: includes/class-wc-advanced-shipment-tracking-admin.php:329
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1556
+msgid "Shipping Providers"
+msgstr "ספקי משלוח"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:311
+#: includes/class-wc-advanced-shipment-tracking-admin.php:313
+#: includes/class-wc-advanced-shipment-tracking-admin.php:331
+#: includes/views/admin_options_bulk_upload.php:11
+msgid "CSV Import"
+msgstr "ייבוא ​​CSV"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:317
+#: includes/class-wc-advanced-shipment-tracking-admin.php:345
+#: includes/views/admin_options_addons.php:73
+msgid "Add-ons"
+msgstr "תוספות"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:334
+#: includes/views/admin_options_osm.php:4
+msgid "Order Status Manager"
+msgstr "מנהל סטטוס הזמנות"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:348
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:209
+#: includes/views/zorem_admin_bulk_upload_sidebar.php:14
+msgid "Documentation"
+msgstr "תיעוד"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:349
+msgid "How to Video"
+msgstr "כיצד וידאו"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:461
+msgid "Custom Statuses"
+msgstr "סטטוסים מותאמים"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:572
+#: includes/views/trackship_sidebar.php:13
+msgid "Connected"
+msgstr "מחובר"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:684
+msgid "Custom Order Statuses"
+msgstr "סטטוסים מותאמים אישית"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:852
+msgid "Default \"mark as <span class=\"shipped_label\">shipped</span>\""
+msgstr "ברירת מחדל לסימון הזמנה כנשלחה"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:853
+msgid ""
+"This means that the 'mark as <span class='shipped_label'>shipped</span>' "
+"will be selected by default when adding tracking info to orders."
+msgstr ""
+"בחירה באפשרות זו תסמן כברירת מחדל את תיבת הבחירה להעביר את ההזמנה כנשלחה בעת "
+"יצירת שטר מטען."
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:856
+msgid "Default \"mark as <span class=\"shipped_label\">completed</span>\""
+msgstr "ברירת מחדל לסימון הזמנה כהושלמה"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:857
+msgid ""
+"This means that the 'mark as <span class='shipped_label'>completed</span>' "
+"will be selected by default when adding tracking info to orders."
+msgstr ""
+"בחירה באפשרות זו תסמן כברירת מחדל את תיבת הבחירה להעביר את ההזמנה כהושלמה "
+"בעת יצירת שטר מטען."
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:934
+msgid "Rename the “Completed” Order status to “Shipped”"
+msgstr "שנה את השם של סטטוס ההזמנה ״הושלמה״ ל- ״נשלחה״ "
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:947
+msgid "API Date Format"
+msgstr "פורמט תאריך API"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:958
+msgid "On which order status email to include the shipment tracking info?"
+msgstr "באיזה דוא\"ל של מצב הזמנה יש לכלול את פרטי מעקב משלוח?"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:965
+msgid "Enable the Tracking Per Item option by default"
+msgstr ""
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:966
+msgid ""
+"This will check the option to add tracking per item when adding tracking "
+"info to orders"
+msgstr ""
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:972
+msgid "Display SKU for the Tracking Per Item"
+msgstr ""
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1443
+msgid "Shipped Order"
+msgstr "הזמנה נשלחה"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1467
+msgid "Mark order as delivered"
+msgstr "סמן הזמנה כנמסרה"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1477
+msgid "Add Tracking"
+msgstr "הוסף פרטי מעקב"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1506
+msgid "Change order status to"
+msgstr "שנה סטטוס הזמנה ל-"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1557
+msgid "Display Name"
+msgstr "שם לתצוגה"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1557
+#: includes/views/admin_options_shipping_provider.php:95
+msgid ""
+"The custom name will display in the tracking info section on the customer "
+"order emails, my-account, shipment tracking page and shipment status emails."
+msgstr ""
+"השם  לתצוגה יופיע בקטע של פרטי המעקב בדוא\"ל להזמנת הלקוח, בחשבון לקוח, בדף "
+"מעקב משלוחים ובדוא\"ל של סטטוס המשלוח."
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1558
+#: includes/views/admin_options_shipping_provider.php:104
+msgid "API Name"
+msgstr "שם מה -API"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1559
+msgid "Country"
+msgstr "מדינה"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1560
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1639
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1561
+msgid "TrackShip"
+msgstr ""
+"מסלול מסלול\n"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1562
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1640
+msgid "Actions"
+msgstr "פעולות"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1563
+#: includes/views/admin_options_shipping_provider.php:22
+msgid "Active"
+msgstr "פעיל"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1615
+msgid "TrackShip supported"
+msgstr "נתמך ע״י TrackShip"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1615
+msgid "TrackShip not supported"
+msgstr "לא נתמך ע״י TrackShip"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1638
+#: includes/customizer/class-wc-tracking-info-customizer.php:146
+#: includes/customizer/class-wc-tracking-info-customizer.php:591
+#: templates/emails/tracking-info.php:276
+#: templates/myaccount/tracking-info.php:202
+msgid "Provider"
+msgstr "ספק המשלוח"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1721
+#, php-format
+msgid "You did not create any %s shipping providers yet."
+msgstr "עדיין לא יצרת ספקי משלוח"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1722
+msgid "Add Custom Provider"
+msgstr "הוסף ספק מותאם אישית"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1724
+#: includes/views/admin_options_shipping_provider.php:47
+#, php-format
+msgid "You don't have any %s shipping providers."
+msgstr "לא הופעלו ספקי משלוח"
+
+#: includes/class-wc-advanced-shipment-tracking-admin.php:1962
+msgid "Filter by shipping provider"
+msgstr "סנן לפי ספק שילוח"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:206
+#: includes/views/admin_tracking_page_settings.php:8
+#: includes/views/trackship_settings.php:9
+#: includes/views/trackship_settings.php:10
+msgid "Tracking Page"
+msgstr "עמוד מעקב משלוח"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:207
+#: includes/views/trackship_settings.php:12
+#: includes/views/trackship_settings.php:13
+msgid "Notifications"
+msgstr "התראות"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:208
+#: includes/views/admin_options_tools.php:13
+#: includes/views/trackship_settings.php:15
+#: includes/views/trackship_settings.php:16
+msgid "Tools"
+msgstr "כלים"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:210
+msgid "TrackShip Account"
+msgstr ""
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:287
+msgid ""
+"You must add the shortcode [wcast-track-order] to the selected page in order "
+"for the tracking page to work."
+msgstr ""
+"עליכם להוסיף את הקיצור [wcast-track-order] לתוכן של הדף שנבחר על מנת שעמוד "
+"מעקב המשלוחים יפעל."
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:295
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:303
+#: includes/views/admin_tracking_page_settings.php:24
+msgid "Select Tracking Page"
+msgstr ""
+"בחר עמוד שישמש למעקב משלוחים\n"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:309
+msgid "Use the tracking page in the customer email/my account tracking link"
+msgstr "השתמש בלינק לעמוד המעקב בהודעת הדוא\"ל ללקוחות ובחשבון הלקוח"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:315
+#: includes/views/admin_tracking_page_settings.php:39
+msgid "Tracking Page Layout"
+msgstr ""
+"עימוד עמוד מעקב משלוחים\n"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:326
+msgid "Select primary color for tracking page"
+msgstr "בחר צבע ראשי לעמוד המעקב"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:332
+msgid "Select content border color for tracking page"
+msgstr "בחר צבע גבול תוכן לעמוד המעקב"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:338
+#: includes/views/admin_tracking_page_settings.php:72
+msgid "Hide Shipping Provider Image"
+msgstr ""
+"הסתר את תמונת ספק המשלוח\n"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:344
+msgid "Hide tracking events details"
+msgstr "הסתר אירועי מעקב פרטניים"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:350
+#: includes/views/admin_tracking_page_settings.php:82
+msgid "Remove TrackShip branding"
+msgstr ""
+"הסר את המיתוג של TrackShip\n"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:377
+msgid "Enable TrackShip"
+msgstr "אפשר את TrackShip"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:383
+msgid "Display Shipment Status Filter on Orders admin"
+msgstr "הצג אפשרות פילטר לפי סטטוס משלוח באדמין של הזמנות"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:416
+msgid ""
+"Automatically set the Order Status to Delivered when the shipment is "
+"delivered "
+msgstr "שנה את סטטוס ההזמנה לנמסרה ללקוח כשהמשלוח נמסר ללקוח"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:417
+msgid ""
+"To enable this option, the 'Delivered' order status should be enabled in the "
+"AST settings."
+msgstr ""
+"כדי לאפשר אפשרות זו, יש לאפשר את סטטוס ההזמנה 'נמסרה ללקוח' בהגדרות AST.\n"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:441
+msgid "Shipment status"
+msgstr "סטטוס משלוח"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:682
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:946
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:955
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:964
+msgid "Get Shipment Status"
+msgstr "קבל סטטוס משלוח"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:704
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:802
+msgid "Pending TrackShip"
+msgstr "ממתין ל - TrackShip "
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:705
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:799
+msgid "Unknown"
+msgstr "לא ידוע"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:706
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:781
+#: includes/customizer/class-wcast-customizer.php:141
+msgid "Pre Transit"
+msgstr "קדם משלוח"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:707
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:775
+#: includes/customizer/class-wcast-customizer.php:149
+#: includes/customizer/class-wc-intransit-email-customizer.php:127
+#: includes/views/admin_status_notifications.php:39
+msgid "In Transit"
+msgstr "המשלוח בדרך"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:708
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:790
+#: includes/customizer/class-wcast-customizer.php:172
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:124
+#: includes/views/admin_status_notifications.php:90
+msgid "Available For Pickup"
+msgstr "זמין לאיסוף"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:709
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:787
+#: includes/customizer/class-wcast-customizer.php:179
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:126
+msgid "Out For Delivery"
+msgstr "יצא למסירה"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:711
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:796
+#: includes/customizer/class-wcast-customizer.php:195
+#: includes/customizer/class-wc-failure-email-customizer.php:124
+#: includes/views/admin_status_notifications.php:141
+msgid "Failed Attempt"
+msgstr "נסיון מסירה נכשל"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:713
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:808
+msgid "Carrier Unsupported"
+msgstr "ספק משלוח לא נתמך"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:714
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:793
+#: includes/customizer/class-wcast-customizer.php:165
+#: includes/customizer/class-wc-returntosender-email-customizer.php:124
+#: includes/views/admin_status_notifications.php:73
+msgid "Return To Sender"
+msgstr "הוחזר לשולח"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:715
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:805
+msgid "Invalid Tracking Number"
+msgstr "מספר מעקב לא תקין"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:720
+msgid "Filter by shipment status"
+msgstr "סנן לפי מצב משלוח"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:778
+#: includes/customizer/class-wcast-customizer.php:157
+#: includes/customizer/class-wc-onhold-email-customizer.php:127
+#: includes/views/admin_status_notifications.php:56
+msgid "On Hold"
+msgstr "בהמתנה"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:811
+msgid "Invalid User Key"
+msgstr "מפתח משתמש לא חוקי"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:814
+msgid "Wrong Shipping Provider"
+msgstr "ספק משלוח לא נכון"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:945
+#, php-format
+msgid ""
+"You got %s %s orders with tracking info that were not sent to track on "
+"TrackShip"
+msgstr "נמצאו %s %s עם פרטי מעקב שלא נשלחו למעקב ב- TrackShip"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:954
+#, php-format
+msgid "You got %s %s orders with shipment status “TrackShip balance is 0”"
+msgstr "קיבלת הזמנות של% s% s בסטטוס המשלוח \"יתרת המעקב היא 0\""
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:963
+#, php-format
+msgid "You got %s %s orders with shipment status  “TrackShip connection issue”"
+msgstr ""
+"נמצאו %s %s מ-30 יום האחרונים עם פרטי מעקב שלא נשלחו למעקב ב- TrackShip בגלל "
+"בעיית תקשורת"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:1419
+msgid "Shipment Providers"
+msgstr ""
+"ספקי משלוחים\n"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:1422
+#: templates/emails/tracking-info.php:221
+#: templates/emails/tracking-info.php:251
+msgid "Shipment Status"
+msgstr ""
+"סטטוס משלוח\n"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:1425
+msgid "Tracking issues"
+msgstr ""
+"מעקב אחר בעיות\n"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:1431
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:1439
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:1456
+msgid "data not available."
+msgstr ""
+"נתונים לא זמינים.\n"
+
+#: includes/class-wc-advanced-shipment-tracking-trackship.php:1462
+msgid "View more on TrackShip"
+msgstr ""
+"הצג יותר ב- TrackShip\n"
+
+#: includes/api/class-wc-advanced-shipment-tracking-rest-api-controller.php:388
+msgid "Cannot create existing order shipment tracking."
+msgstr ""
+"לא ניתן ליצור מעקב אחר משלוחים להזמנות.\n"
+
+#: includes/api/class-wc-advanced-shipment-tracking-rest-api-controller.php:397
+msgid "Invalid order ID."
+msgstr ""
+"מזהה הזמנה לא חוקי.\n"
+
+#: includes/api/class-wc-advanced-shipment-tracking-rest-api-controller.php:401
+msgid "Special character not allowd in tracking number"
+msgstr ""
+"תו מיוחד אינו מאפשר למספר המעקב\n"
+
+#: includes/customizer/class-wcast-customizer.php:32
+#: includes/customizer/class-wcast-customizer.php:103
+msgid "Tracking info display"
+msgstr "תצוגת מידע מעקב"
+
+#: includes/customizer/class-wcast-customizer.php:42
+msgid "Order Status Emails"
+msgstr "אימיילים של סטטוס הזמנה"
+
+#: includes/customizer/class-wcast-customizer.php:51
+msgid "Shipment Status Emails"
+msgstr "התראות אימייל על שינוי סטטוס משלוח"
+
+#: includes/customizer/class-wcast-customizer.php:58
+#: includes/views/admin_status_notifications.php:152
+msgid "Admin Notifications"
+msgstr "התראות מנהל"
+
+#: includes/customizer/class-wcast-customizer.php:71
+#: includes/views/admin_options_settings.php:15
+msgid "General Settings"
+msgstr "הגדרות כלליות"
+
+#: includes/customizer/class-wcast-customizer.php:79
+msgid "Table layout design"
+msgstr "עיצוב טבלה"
+
+#: includes/customizer/class-wcast-customizer.php:87
+msgid "Simple layout design"
+msgstr "עיצוב טקסט פשוט"
+
+#: includes/customizer/class-wcast-customizer.php:95
+msgid "Tracking Per Item Add-on"
+msgstr "תוסף מעקב לפי פריט"
+
+#: includes/customizer/class-wcast-customizer.php:111
+#: includes/customizer/class-wc-email-customizer.php:163
+msgid "Delivered order status email"
+msgstr "אימייל סטטוס הזמנה שנמסרה ללקוח"
+
+#: includes/customizer/class-wcast-customizer.php:118
+msgid "Completed order status email"
+msgstr "אימייל לסטטוס הזמנה הושלמה"
+
+#: includes/customizer/class-wcast-customizer.php:125
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:143
+msgid "Partially Shipped status email"
+msgstr ""
+"דוא\"ל לסטטוס הזמנה ״נשלח חלקית״\n"
+
+#: includes/customizer/class-wcast-customizer.php:133
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:143
+msgid "Updated Tracking status email"
+msgstr "דוא\"ל סטטוס עדכון פרטי משלוח"
+
+#: includes/customizer/class-wcast-customizer.php:203
+#: includes/views/admin_status_notifications.php:167
+msgid "Late Shipments"
+msgstr "משלוחים מאוחרים"
+
+#: includes/customizer/class-wcast-customizer.php:516
+msgid "Select order to preview"
+msgstr "בחר הזמנה לתצוגה מקדימה"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:123
+msgid "Your order #{order_number} is available for pickup"
+msgstr "הזמנתך מספר {order_number} מוכנה לאיסוף"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:125
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} is available for pickup."
+msgstr ""
+"שלום, חשבנו שתרצה לדעת שהזמנתך #{order_number} מוכנה לאיסוף.\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:157
+msgid "Available For Pickup email"
+msgstr "אימייל לסטטוס \"זמין לאיסוף\""
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:173
+msgid "Enable Available For Pickup email"
+msgstr "אפשר אימייל לסטטוס \"זמין לאיסוף\""
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:189
+#: includes/customizer/class-wc-delivered-email-customizer.php:190
+#: includes/customizer/class-wc-email-customizer.php:197
+#: includes/customizer/class-wc-failure-email-customizer.php:189
+#: includes/customizer/class-wc-intransit-email-customizer.php:193
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:191
+#: includes/customizer/class-wc-returntosender-email-customizer.php:189
+#: includes/customizer/class-wc-tracking-info-customizer.php:186
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:177
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:177
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:176
+#: includes/customizer/class-wc-onhold-email-customizer.php:193
+msgid "Preview order"
+msgstr "הזמנה  לתצוגה מקדימה"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:218
+#: includes/customizer/class-wc-delivered-email-customizer.php:219
+#: includes/customizer/class-wc-email-customizer.php:226
+#: includes/customizer/class-wc-failure-email-customizer.php:218
+#: includes/customizer/class-wc-intransit-email-customizer.php:222
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:220
+#: includes/customizer/class-wc-returntosender-email-customizer.php:218
+#: includes/customizer/class-wc-onhold-email-customizer.php:222
+msgid "E.g. {customer.email}, admin@example.org"
+msgstr "למשל {customer.email}, admin@example.org"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:234
+#: includes/customizer/class-wc-delivered-email-customizer.php:235
+#: includes/customizer/class-wc-failure-email-customizer.php:234
+#: includes/customizer/class-wc-intransit-email-customizer.php:238
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:236
+#: includes/customizer/class-wc-onhold-email-customizer.php:238
+msgid "Email Subject"
+msgstr "נושא האימייל"
+
+#. %s: list of placeholders
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:235
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:258
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:301
+#: includes/customizer/class-wc-delivered-email-customizer.php:236
+#: includes/customizer/class-wc-delivered-email-customizer.php:259
+#: includes/customizer/class-wc-delivered-email-customizer.php:302
+#: includes/customizer/class-wc-email-customizer.php:243
+#: includes/customizer/class-wc-email-customizer.php:266
+#: includes/customizer/class-wc-email-customizer.php:309
+#: includes/customizer/class-wc-failure-email-customizer.php:235
+#: includes/customizer/class-wc-failure-email-customizer.php:258
+#: includes/customizer/class-wc-failure-email-customizer.php:301
+#: includes/customizer/class-wc-intransit-email-customizer.php:239
+#: includes/customizer/class-wc-intransit-email-customizer.php:262
+#: includes/customizer/class-wc-intransit-email-customizer.php:305
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:237
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:260
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:303
+#: includes/customizer/class-wc-returntosender-email-customizer.php:235
+#: includes/customizer/class-wc-returntosender-email-customizer.php:258
+#: includes/customizer/class-wc-returntosender-email-customizer.php:300
+#: includes/customizer/class-wc-tracking-info-customizer.php:373
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:200
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:223
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:247
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:266
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:200
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:223
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:247
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:266
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:257
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:280
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:392
+#: includes/customizer/class-wc-onhold-email-customizer.php:239
+#: includes/customizer/class-wc-onhold-email-customizer.php:262
+#: includes/customizer/class-wc-onhold-email-customizer.php:305
+#: includes/emails/class-shipment-delivered-email.php:274
+#: includes/emails/class-shipment-delivered-email.php:283
+msgid "Available variables:"
+msgstr "משתנים זמינים:"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:280
+#: includes/customizer/class-wc-delivered-email-customizer.php:281
+#: includes/customizer/class-wc-email-customizer.php:289
+#: includes/customizer/class-wc-failure-email-customizer.php:280
+#: includes/customizer/class-wc-intransit-email-customizer.php:284
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:282
+#: includes/customizer/class-wc-returntosender-email-customizer.php:280
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:246
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:246
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:371
+#: includes/customizer/class-wc-onhold-email-customizer.php:284
+msgid "Email content"
+msgstr "תוכן דוא\"ל"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:317
+#: includes/customizer/class-wc-delivered-email-customizer.php:319
+#: includes/customizer/class-wc-failure-email-customizer.php:318
+#: includes/customizer/class-wc-intransit-email-customizer.php:322
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:320
+#: includes/customizer/class-wc-returntosender-email-customizer.php:317
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:301
+#: includes/customizer/class-wc-onhold-email-customizer.php:322
+msgid "Show tracking details"
+msgstr "הצג פרטי מעקב משלוח"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:334
+#: includes/customizer/class-wc-delivered-email-customizer.php:336
+#: includes/customizer/class-wc-failure-email-customizer.php:335
+#: includes/customizer/class-wc-intransit-email-customizer.php:339
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:337
+#: includes/customizer/class-wc-returntosender-email-customizer.php:334
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:318
+#: includes/customizer/class-wc-onhold-email-customizer.php:339
+msgid "Show order details"
+msgstr "הצג פרטי הזמנה"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:351
+#: includes/customizer/class-wc-delivered-email-customizer.php:353
+#: includes/customizer/class-wc-failure-email-customizer.php:352
+#: includes/customizer/class-wc-intransit-email-customizer.php:356
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:354
+#: includes/customizer/class-wc-returntosender-email-customizer.php:351
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:335
+#: includes/customizer/class-wc-onhold-email-customizer.php:356
+msgid "Show billing address"
+msgstr "הצג כתובת למשלוח"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:369
+#: includes/customizer/class-wc-delivered-email-customizer.php:371
+#: includes/customizer/class-wc-failure-email-customizer.php:370
+#: includes/customizer/class-wc-intransit-email-customizer.php:374
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:372
+#: includes/customizer/class-wc-returntosender-email-customizer.php:369
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:353
+#: includes/customizer/class-wc-onhold-email-customizer.php:374
+msgid "Show shipping address"
+msgstr "הצג כתובת למשלוח"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:386
+#: includes/customizer/class-wc-delivered-email-customizer.php:388
+#: includes/customizer/class-wc-email-customizer.php:415
+#: includes/customizer/class-wc-failure-email-customizer.php:387
+#: includes/customizer/class-wc-intransit-email-customizer.php:391
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:389
+#: includes/customizer/class-wc-returntosender-email-customizer.php:386
+#: includes/customizer/class-wc-onhold-email-customizer.php:391
+msgid "Google Analytics link tracking"
+msgstr "מעקב Google Analytics עבור קישורים"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:387
+#: includes/customizer/class-wc-delivered-email-customizer.php:389
+#: includes/customizer/class-wc-failure-email-customizer.php:388
+#: includes/customizer/class-wc-intransit-email-customizer.php:392
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:390
+#: includes/customizer/class-wc-returntosender-email-customizer.php:387
+#: includes/customizer/class-wc-onhold-email-customizer.php:392
+msgid "This will be appended to URL in the email content"
+msgstr ""
+"זה יצורף לכתובת האתר בתוכן הדוא\"ל\n"
+
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:445
+#: includes/customizer/class-wc-availableforpickup-email-customizer.php:452
+#: includes/customizer/class-wc-delivered-email-customizer.php:447
+#: includes/customizer/class-wc-delivered-email-customizer.php:454
+#: includes/customizer/class-wc-email-customizer.php:454
+#: includes/customizer/class-wc-email-customizer.php:462
+#: includes/customizer/class-wc-failure-email-customizer.php:446
+#: includes/customizer/class-wc-failure-email-customizer.php:454
+#: includes/customizer/class-wc-intransit-email-customizer.php:450
+#: includes/customizer/class-wc-intransit-email-customizer.php:458
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:448
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:456
+#: includes/customizer/class-wc-returntosender-email-customizer.php:445
+#: includes/customizer/class-wc-returntosender-email-customizer.php:453
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:299
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:307
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:299
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:307
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:447
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:455
+#: includes/customizer/class-wc-onhold-email-customizer.php:450
+#: includes/customizer/class-wc-onhold-email-customizer.php:458
+msgid "Please select order to preview."
+msgstr ""
+"אנא בחר סדר לתצוגה מקדימה.\n"
+
+#: includes/customizer/class-wc-delivered-email-customizer.php:124
+msgid "Your order #{order_number} has been delivered"
+msgstr ""
+"הזמנתך #{order_number} נמסרה\n"
+
+#: includes/customizer/class-wc-delivered-email-customizer.php:126
+#: includes/customizer/class-wc-email-customizer.php:132
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} has been Delivered."
+msgstr ""
+"שלום, חשבנו שתרצה לדעת שהזמנתך #{order_number} נמסרה.\n"
+
+#: includes/customizer/class-wc-delivered-email-customizer.php:158
+msgid "Delivered email"
+msgstr "אימייל הזמנה נמסרה"
+
+#: includes/customizer/class-wc-delivered-email-customizer.php:174
+msgid "Enable Delivered email"
+msgstr "אפשר אימייל הזמנה נמסרה"
+
+#: includes/customizer/class-wc-email-customizer.php:130
+#: includes/emails/class-shipment-delivered-email.php:94
+msgid "Your {site_title} order is now delivered"
+msgstr ""
+"הזמנתך #{order_number} נמסרה בהצלחה\n"
+
+#: includes/customizer/class-wc-email-customizer.php:179
+msgid "Enable Delivered order status email"
+msgstr "אפשר אימייל סטטוס הזמנה ״נמסר ללקוח״"
+
+#: includes/customizer/class-wc-email-customizer.php:201
+#: includes/customizer/class-wc-tracking-info-customizer.php:190
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:181
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:181
+msgid "Please select a order..."
+msgstr "בחר צבע"
+
+#: includes/customizer/class-wc-email-customizer.php:326
+msgid "Display tracking details"
+msgstr "הצג פרטי מעקב משלוח"
+
+#: includes/customizer/class-wc-email-customizer.php:343
+msgid "Display order details"
+msgstr "הצג פרטי הזמנה"
+
+#: includes/customizer/class-wc-email-customizer.php:361
+msgid "Display Shipping Address"
+msgstr "הצג כתובת משלוח"
+
+#: includes/customizer/class-wc-email-customizer.php:379
+msgid "Display Billing Address"
+msgstr "הצר כתובת חיוב"
+
+#: includes/customizer/class-wc-email-customizer.php:397
+msgid "Enable Google Analytics tracking"
+msgstr "אפשר מעקב של Google Analytics"
+
+#: includes/customizer/class-wc-email-customizer.php:416
+msgid ""
+"This will be appended to URL in the email content – e.g. "
+"utm_source=ast&utm_medium=email&utm_campaign=delivered"
+msgstr ""
+"זה יתווסף לכתובת האתר בתוכן הדוא\"ל - למשל utm_source = ast & utm_medium = "
+"אימייל & utm_campaign = נמסר\n"
+
+#: includes/customizer/class-wc-failure-email-customizer.php:123
+msgid "Your order #{order_number} is Failed Attempt"
+msgstr "נכשל נסיון מסירה להזמנה מספר {order_number}"
+
+#: includes/customizer/class-wc-failure-email-customizer.php:125
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} is Failed Attempt"
+msgstr ""
+"שלום, חשבנו שתרצה לדעת שהתבצע נסיון מסירה להזמנתך #{order_number}.\n"
+
+#: includes/customizer/class-wc-failure-email-customizer.php:157
+msgid "Failed Attempt email"
+msgstr "אימייל לסטטוס ״נסיון מסירה נכשל״"
+
+#: includes/customizer/class-wc-failure-email-customizer.php:173
+msgid "Enable Failed Attempt email"
+msgstr "אפשר אימייל לסטטוס ״נסיון מסירה נכשל״"
+
+#: includes/customizer/class-wc-intransit-email-customizer.php:126
+msgid "Your order #{order_number} is in transit"
+msgstr "הזמנתך מספר {order_number} בסטטוס ״המשלוח בדרך״"
+
+#: includes/customizer/class-wc-intransit-email-customizer.php:128
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} is in transit"
+msgstr ""
+"שלום, חשבנו שתרצה לדעת שהזמנתך #{order_number} בדרכה אלייך.\n"
+
+#: includes/customizer/class-wc-intransit-email-customizer.php:160
+msgid "In Transit email"
+msgstr "אימייל של ״במסלול משלוח״"
+
+#: includes/customizer/class-wc-intransit-email-customizer.php:176
+msgid "Enable In Transit email"
+msgstr "אפשר אימייל של ״במסלול משלוח״"
+
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:125
+msgid "Your order #{order_number} is out for delivery"
+msgstr "המשלוח של הזמנה מספר {order_number} יצא למסירה"
+
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:127
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} is out for delivery."
+msgstr "שלום, חשבנו שתרצה לדעת שהזמנתך #{order_number} יצאה למסירה"
+
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:159
+msgid "Out For Delivery email"
+msgstr "אימייל של ״יצא למסירה״"
+
+#: includes/customizer/class-wc-outfordelivery-email-customizer.php:175
+msgid "Enable Out For Delivery email"
+msgstr "אפשר אימייל של ״יצא למסירה״"
+
+#: includes/customizer/class-wc-returntosender-email-customizer.php:123
+msgid "Your order #{order_number} has returned to sender"
+msgstr "הזמנתך #{order_number} הוחזרה לשולח"
+
+#: includes/customizer/class-wc-returntosender-email-customizer.php:125
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} has been returned to sender."
+msgstr ""
+"שלום, חשבנו שתרצה לדעת שהזמנתך #{order_number} הוחזרה לשולח.\n"
+
+#: includes/customizer/class-wc-returntosender-email-customizer.php:157
+msgid "Return To Sender email"
+msgstr "אימייל של ״הוחזר לשולח״"
+
+#: includes/customizer/class-wc-returntosender-email-customizer.php:173
+msgid "Enable Return To Sender email"
+msgstr "אפשר אימייל של ״הוחזר לשולח״"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:147
+#: includes/customizer/class-wc-tracking-info-customizer.php:614
+#: templates/emails/tracking-info.php:288
+#: templates/myaccount/tracking-info.php:212
+msgid "Tracking Number"
+msgstr "מספר מעקב"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:148
+#: includes/customizer/class-wc-tracking-info-customizer.php:636
+msgid "Shipped Date"
+msgstr "תאריך משלוח"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:156
+msgid "Shipped on {ship_date} via {shipping_provider} - {tracking_number_link}"
+msgstr "נשלח ב- {ship_date} דרך {shipping_provider} - {tracking_number_link}"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:187
+msgid "Select an order to preview and design the tracking info display."
+msgstr ""
+"בחר הזמנה לתצוגה מקדימה ולעיצוב תצוגת פרטי המעקב.\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:208
+#: includes/customizer/class-wc-tracking-info-customizer.php:211
+msgid "Tracking display layout"
+msgstr "תבנית עיצוב פרטי מעקב"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:215
+msgid "Select Template"
+msgstr ""
+"בחר תבנית\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:216
+msgid "Table Layout"
+msgstr ""
+"פריסת טבלה\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:233
+msgid "Tracking Display Position"
+msgstr "מיקום תצוגת פרטי מעקב"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:237
+msgid "Before Order Details"
+msgstr "לפני פרטי ההזמנה"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:238
+msgid "After Order Details"
+msgstr "אחרי פרטי ההזמנה"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:254
+msgid "Hide Tracking Header"
+msgstr "הסתר כותרת פרטי מעקב"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:272
+msgid "Tracking Header text"
+msgstr ""
+"מעקב אחר טקסט כותרת\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:279
+msgid "Tracking Information"
+msgstr "פרטי מעקב משלוח"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:295
+msgid "Additional text after header"
+msgstr "טקסט נוסף אחרי כותרת"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:319
+msgid "Hide tracking information from order line items"
+msgstr "הסתר פרטי מעקב מטבלת הפריטים"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:337
+msgid "Simple Layout Design"
+msgstr ""
+"עיצוב פשוט\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:353
+msgid "Content"
+msgstr "תוכן"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:390
+#: includes/customizer/class-wc-tracking-info-customizer.php:864
+msgid "Content font size"
+msgstr ""
+"גודל גופן של תוכן\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:408
+#: includes/customizer/class-wc-tracking-info-customizer.php:847
+msgid "Content font color"
+msgstr ""
+"צבע גופן של תוכן\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:425
+msgid "Show bottom border"
+msgstr ""
+"הצג גבול תחתון\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:443
+msgid "Bottom border color"
+msgstr ""
+"צבע גבול תחתון\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:462
+msgid "Table layout Design"
+msgstr ""
+"עיצוב פריסת טבלה\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:478
+msgid "Display shipping provider name"
+msgstr ""
+"הצגת שם ספק המשלוח\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:496
+msgid "Display shipping provider image"
+msgstr ""
+"הצגת תמונה של ספק המשלוח\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:514
+msgid "Hide the ship date"
+msgstr ""
+"הסתר את תאריך הספינה\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:532
+msgid "Use tracking number as a link"
+msgstr ""
+"השתמש במספר המעקב כקישור\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:550
+msgid "Table Headers"
+msgstr ""
+"כותרות שולחן\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:566
+msgid "Hide Table Headers"
+msgstr ""
+"הסתר כותרות שולחן\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:584
+msgid "Provider header text"
+msgstr ""
+"טקסט כותרת של ספק\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:607
+msgid "Tracking Number header text"
+msgstr ""
+"מעקב אחר טקסט כותרת מספר\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:629
+msgid "Ship date header text"
+msgstr ""
+"טקסט כותרת תאריך משלוח\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:652
+msgid "Track Label"
+msgstr "טקסט של כפתור מעקב משלוח"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:670
+msgid "Track header text"
+msgstr ""
+"עקוב אחר טקסט הכותרת\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:693
+msgid "Headers font size"
+msgstr ""
+"גודל גופן של כותרות\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:711
+msgid "Headers font color"
+msgstr ""
+"צבע גופן של כותרות\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:728
+msgid "Table Content"
+msgstr ""
+"תוכן טבלה\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:744
+msgid "Padding"
+msgstr "מרווח"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:765
+#: includes/customizer/class-wc-tracking-info-customizer.php:959
+msgid "Background color"
+msgstr "צבע רקע"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:782
+#: includes/views/admin_tracking_page_settings.php:61
+msgid "Border color"
+msgstr "צבע גבול"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:799
+msgid "Border size"
+msgstr "גודל גבול"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:824
+msgid "Content Text align"
+msgstr ""
+"יישור טקסט תוכן\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:882
+msgid "Content line height"
+msgstr "גובה שורה של תוכן"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:904
+msgid "Content font weight"
+msgstr "משקל גופן תוכן"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:927
+msgid "Tracking Link"
+msgstr ""
+"קישור מעקב\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:942
+msgid "Font Color"
+msgstr ""
+"צבע גופן\n"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:975
+msgid "Border"
+msgstr "גבול"
+
+#: includes/customizer/class-wc-tracking-info-customizer.php:1027
+msgid ""
+"To preview the tracking display, please add tracking information to at least "
+"one order and choose it in the preview order selection."
+msgstr ""
+"לתצוגה מקדימה של תצוגת פרטי מעקב משלוח, הוסף מידע על מעקב להזמנה אחת לפחות "
+"ובחר את ההזמנה בבחירת ההזמנה לתצוגה מקדימה.\n"
+
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:116
+msgid "Your {site_title} order is now partially shipped"
+msgstr ""
+"ההזמנה שלך {site_title} נשלחה באופן חלקי\n"
+
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:118
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} has been partially shipped."
+msgstr ""
+"שלום שם. חשבנו שתרצה לדעת שההזמנה האחרונה שלך מ- {site_title} נשלחה באופן "
+"חלקי.\n"
+
+#: includes/customizer/class-wc-partial-shipped-email-customizer.php:159
+msgid "Enable Partially Shipped order status email"
+msgstr ""
+"הפעל דוא\"ל סטטוס ההזמנה שנשלח באופן חלקי\n"
+
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:116
+msgid "Your {site_title} order is now updated tracking"
+msgstr "פרטי מעקב משלוח להזמנה שלך מ-{site_title} עודכנו"
+
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:118
+msgid ""
+"Hi there. we thought you'd like to know that the shipment tracking for your "
+"recent order from {site_title} has been updated."
+msgstr ""
+"שלום שם. חשבנו שתרצה לדעת שפרטי מעקב המשלוח להזמנתך האחרונה מ- {site_title} "
+"עודכנו.\n"
+
+#: includes/customizer/class-wc-updated-tracking-email-customizer.php:159
+msgid "Enable Updated Tracking order status email"
+msgstr ""
+"אפשר דוא\"ל סטטוס להזמנת עדכון פרטי מעקב\n"
+
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:126
+msgid "Late shipment for order #{order_number}"
+msgstr "משלוח מאוחר להזמנה מספר {order_number}"
+
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:127
+msgid "Late shipment"
+msgstr "משלוח מאוחר"
+
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:128
+msgid "This shipment exceeded {shipment_length} days."
+msgstr "משלוח זה עבר את {shipment_length} ימים."
+
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:161
+msgid "Late Shipments admin email"
+msgstr "דוא\"ל מנהל מאוחרים"
+
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:198
+msgid "Enable Late Shipments admin email"
+msgstr "אפשר דוא\"ל מנהל של משלוחים מאוחרים"
+
+#: includes/customizer/class-wc-late-shipments-email-customizer.php:241
+msgid "E.g. {admin_email}, admin@example.org"
+msgstr "למשל {admin_email}, admin@example.org"
+
+#: includes/customizer/class-wc-onhold-email-customizer.php:126
+msgid "Your order #{order_number} is on hold"
+msgstr "הזמנה #{order_number} נמצאת במצב המתנה"
+
+#: includes/customizer/class-wc-onhold-email-customizer.php:128
+msgid ""
+"Hi there. we thought you'd like to know that your recent order from "
+"{site_title} is on hold"
+msgstr "שלום, רצינו לעדכן שסטטוס ההזמנה מ -  {site_title} נמצאת במצב המתנה"
+
+#: includes/customizer/class-wc-onhold-email-customizer.php:160
+msgid "On Hold email"
+msgstr "אימייל של ״בהמתנה״"
+
+#: includes/customizer/class-wc-onhold-email-customizer.php:176
+msgid "Enable On Hold email"
+msgstr "אפשר אימייל של ״בהמתנה״"
+
+#: includes/emails/class-shipment-delivered-email.php:32
+msgid "Delivered order"
+msgstr "ההזמנה נמסרה ללקוח"
+
+#: includes/emails/class-shipment-delivered-email.php:33
+msgid ""
+"Order delivered emails are sent to customers when their orders are marked "
+"delivered and usually indicate that their orders have been shipped."
+msgstr ""
+"הודעות דוא\"ל שנמסרו על ההזמנה נשלחות ללקוחות כאשר ההזמנות שלהם מסומנות "
+"ונמסרות בדרך כלל ומציינות שההזמנות שלהם נשלחו.\n"
+
+#: includes/emails/class-shipment-delivered-email.php:298
+msgid "Click Here"
+msgstr "לחץ כאן"
+
+#: includes/emails/class-shipment-delivered-email.php:299
+msgid "Edit in customizer"
+msgstr "עריכה בהתאמה אישית"
+
+#: includes/views/admin_options_bulk_upload.php:12
+msgid ""
+"Use our CSV Import Tool  to bulk Import tracking info to orders from a CSV "
+"file"
+msgstr ""
+"השתמש בכלי הייבוא ​​של CSV כדי לייבא בתפוצה רחבה מידע על מעקב להזמנות מקובץ "
+"CSV"
+
+#: includes/views/admin_options_bulk_upload.php:26
+msgid "Upload a CSV file from your computer:"
+msgstr "העלה קובץ CSV מהמחשב שלך:"
+
+#: includes/views/admin_options_bulk_upload.php:34
+msgid "Choose the Shipped Date format"
+msgstr ""
+"בחר בפורמט תאריך משלוח\n"
+
+#: includes/views/admin_options_bulk_upload.php:48
+msgid "Replace tracking information?"
+msgstr "החלף מידע מעקב?"
+
+#: includes/views/admin_options_bulk_upload.php:48
+msgid ""
+"Keep unchecked for the tracking info to be added to any existing tracking "
+"info added to the orders."
+msgstr "אל תסמן אם תרצה שמידע על המעקב יתווסף לכל מידע מעקב קיים להזמנות."
+
+#: includes/views/admin_options_bulk_upload.php:57
+msgid "Continue"
+msgstr "המשך"
+
+#: includes/views/admin_options_bulk_upload.php:59
+msgid "Settings Saved."
+msgstr "הגדרות נשמרו"
+
+#: includes/views/admin_options_bulk_upload.php:77
+msgid "Your tracking information are now being imported..."
+msgstr "פרטי המעקב מיובאים"
+
+#: includes/views/admin_options_bulk_upload.php:83
+msgid "Upload Progress - "
+msgstr "קצב התקדמות הייבוא -"
+
+#: includes/views/admin_options_bulk_upload.php:92
+msgid "Upload again"
+msgstr "ייבא שנית"
+
+#: includes/views/admin_options_bulk_upload.php:93
+msgid "View Orders"
+msgstr "הצג הזמנות"
+
+#: includes/views/admin_options_settings.php:22
+#: includes/views/admin_trackship_dashboard.php:45
+#: includes/views/admin_tracking_page_settings.php:87
+#: includes/views/admin_tracking_page_settings.php:108
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+#: includes/views/admin_options_settings.php:34
+msgid "Tracking Info Display"
+msgstr "תצוגת מעקב הזמנה"
+
+#: includes/views/admin_options_settings.php:43
+msgid ""
+"Use a customizer with a preview to customize the tracking info display on "
+"customer order emails and my-account."
+msgstr ""
+"השתמש בהתאמה אישית עם תצוגה מקדימה כדי להתאים אישית את תצוגת פרטי המעקב "
+"בהודעות אימייל להזמנת לקוח ובחשבון שלי."
+
+#: includes/views/admin_options_settings.php:44
+msgid "Launch Customizer"
+msgstr "ערוך בהתאמה אישית"
+
+#: includes/views/admin_options_shipping_provider.php:23
+msgid "Inactive"
+msgstr "לא פעיל"
+
+#: includes/views/admin_options_shipping_provider.php:24
+msgid "Custom"
+msgstr "בהתאמה אישית"
+
+#: includes/views/admin_options_shipping_provider.php:34
+msgid "Search by provider / country"
+msgstr "חפש לפי ספק משלוח / מדינה"
+
+#: includes/views/admin_options_shipping_provider.php:53
+msgid "Add Custom Shipping Provider"
+msgstr "הוספת ספק משלוח מותאם אישית"
+
+#: includes/views/admin_options_shipping_provider.php:56
+#: includes/views/admin_options_shipping_provider.php:98
+msgid "Shipping Provider"
+msgstr "ספק משלוח"
+
+#: includes/views/admin_options_shipping_provider.php:59
+#: includes/views/admin_options_shipping_provider.php:101
+msgid "Custom display name"
+msgstr "שם תצוגה מותאם אישית"
+
+#: includes/views/admin_options_shipping_provider.php:63
+#: includes/views/admin_options_shipping_provider.php:108
+msgid "Shipping Country"
+msgstr ""
+"ארץ המשלוח\n"
+
+#: includes/views/admin_options_shipping_provider.php:64
+#: includes/views/admin_options_shipping_provider.php:109
+msgid "Global"
+msgstr "גלובלי"
+
+#: includes/views/admin_options_shipping_provider.php:74
+#: includes/views/admin_options_shipping_provider.php:119
+msgid "Upload"
+msgstr "העלאה"
+
+#: includes/views/admin_options_shipping_provider.php:80
+#: includes/views/admin_options_shipping_provider.php:125
+msgid ""
+"You can use the variables %number%, %postal_code% and %country_code% in the "
+"URL, for more info, check our "
+msgstr ""
+"אתה יכול לשרשר את המשתנים - %number%, %postal_code% ו- %country_code% בכתובת "
+"URL של ספק השירות"
+
+#: includes/views/admin_options_shipping_provider.php:80
+#: includes/views/admin_options_shipping_provider.php:125
+#, php-format
+msgid "<a href=\"%s\" target=\"blank\">documentation</a>"
+msgstr "תיעוד"
+
+#: includes/views/admin_options_shipping_provider.php:94
+msgid "Edit Shipping Provider"
+msgstr "ערוך פרטי ספק משלוח"
+
+#: includes/views/admin_options_shipping_provider.php:131
+msgid "Update"
+msgstr "עדכן"
+
+#: includes/views/admin_options_shipping_provider.php:132
+msgid "Reset"
+msgstr "נקה"
+
+#: includes/views/admin_options_shipping_provider.php:142
+#: includes/views/admin_options_shipping_provider.php:153
+msgid "Sync Shipping Providers"
+msgstr ""
+"סנכרן ספקי משלוח\n"
+
+#: includes/views/admin_options_shipping_provider.php:143
+msgid ""
+"Syncing the shipping providers list add or updates the pre-set shipping "
+"providers and will not effect custom shipping providers."
+msgstr ""
+"סנכרון רשימת ספקי המשלוחים מוסיף או מעדכן את ספקי המשלוחים שהוגדרו מראש ולא "
+"ישפיע על ספקי משלוח מותאמים אישית.\n"
+
+#: includes/views/admin_options_shipping_provider.php:145
+msgid "Providers Added"
+msgstr "נוסף ספק משלוח"
+
+#: includes/views/admin_options_shipping_provider.php:146
+msgid "Providers Updated"
+msgstr "עודכנו ספקי המשלוח"
+
+#: includes/views/admin_options_shipping_provider.php:147
+msgid "Providers Deleted"
+msgstr "ספק משלוח נמחק"
+
+#: includes/views/admin_options_shipping_provider.php:149
+msgid "Shipping providers database reset successfully."
+msgstr "רשימת ספקי המשלוחים עודכנה בהצלחה"
+
+#: includes/views/admin_options_shipping_provider.php:151
+msgid ""
+"Reset providers database, it will reset all your shipping provider database"
+msgstr ""
+"אפס בסיס נתונים של ספק משלוח, הפעולה תאפס את מסד הנתונים של ספקי המשלוחים שלך"
+
+#: includes/views/admin_options_trackship_integration.php:16
+msgid "Watch Video"
+msgstr "צפה בוידאו"
+
+#: includes/views/admin_options_trackship_integration.php:17
+msgid "Start your free trial"
+msgstr "התחל נסיון בחינם"
+
+#: includes/views/admin_options_addons.php:76
+msgid "License"
+msgstr "רשיון"
+
+#: includes/views/admin_trackship_dashboard.php:13
+#, php-format
+msgid ""
+"You have %s Shipped Orders from the last 30 days that you can bulk send to "
+"<a href=\"javascript:void(0);\" class=\"tool_link\">Get Shipment Status</a>"
+msgstr ""
+
+#: includes/views/admin_trackship_dashboard.php:33
+msgid "Automation"
+msgstr "אוטומציה"
+
+#: includes/views/admin_tracking_page_settings.php:21
+msgid "Enable a tracking page on your store"
+msgstr "אפשר עמוד מעקב משלוחים באתר"
+
+#: includes/views/admin_tracking_page_settings.php:31
+msgid "Other"
+msgstr ""
+
+#: includes/views/admin_tracking_page_settings.php:36
+msgid ""
+"Note - If you select a different page than the Shipment Tracking page, add "
+"the [wcast-track-order] shortcode to the selected page content."
+msgstr ""
+"הערה - אם בחרת בדף שונה מדף מעקב המשלוח, הוסף את קוד הקוד [wcast-order-order]"
+" לתוכן העמוד שנבחר.\n"
+
+#: includes/views/admin_tracking_page_settings.php:36
+msgid "more info"
+msgstr ""
+"עוד מידע\n"
+
+#: includes/views/admin_tracking_page_settings.php:55
+msgid "Text Color"
+msgstr ""
+"צבע טקסט\n"
+
+#: includes/views/admin_tracking_page_settings.php:77
+msgid "Hide tracking event details"
+msgstr ""
+"הסתר את פרטי המעקב אחר אירועים\n"
+
+#: includes/views/admin_tracking_page_settings.php:97
+msgid "Preview"
+msgstr ""
+"תצוגה מקדימה\n"
+
+#: includes/views/admin_status_notifications.php:3
+msgid "Shipment Status Email Notifications"
+msgstr ""
+
+#: includes/views/admin_status_notifications.php:107
+msgid "Out For delivery"
+msgstr ""
+
+#: includes/views/admin_options_tools.php:11
+msgid "Tracking info sent to Trackship for all Orders."
+msgstr ""
+
+#: includes/views/admin_options_tools.php:14
+msgid ""
+"You can send all your orders from the last 30 days to get shipment status "
+"from TrackShip:"
+msgstr ""
+"אתה יכול לשלוח את כל ההזמנות שלך משלושים הימים האחרונים לקבלת מצב משלוח מ- "
+"TrackShip:\n"
+
+#: includes/views/admin_options_osm.php:39
+#: includes/views/admin_options_osm.php:81
+#: includes/views/admin_options_osm.php:122
+msgid "Light Font"
+msgstr ""
+"גופן קל\n"
+
+#: includes/views/admin_options_osm.php:40
+#: includes/views/admin_options_osm.php:82
+#: includes/views/admin_options_osm.php:123
+msgid "Dark Font"
+msgstr ""
+"גופן כהה\n"
+
+#: includes/views/admin_options_osm.php:44
+#: includes/views/admin_options_osm.php:86
+#: includes/views/admin_options_osm.php:127
+msgid "Send Email"
+msgstr ""
+"שלח אימייל\n"
+
+#: includes/views/trackship_sidebar.php:12
+msgid "TrackShip Connection Status"
+msgstr "מצב חיבור ל - TrackShip"
+
+#: includes/views/trackship_sidebar.php:14
+msgid "Account Dashboard"
+msgstr ""
+
+#: includes/views/trackship_sidebar.php:20
+msgid "Trackers Balance"
+msgstr ""
+
+#: includes/views/trackship_sidebar.php:24
+msgid "Subscription Plan"
+msgstr "תכנית מנויים"
+
+#: includes/views/trackship_sidebar.php:28
+msgid "Upgrade Now"
+msgstr ""
+
+#: includes/views/zorem_admin_bulk_upload_sidebar.php:13
+msgid "Download sample csv"
+msgstr "הורד קובץ CSV לדוגמא"
+
+#: templates/emails/tracking-info.php:281
+#: templates/myaccount/tracking-info.php:207
+msgid "Provider Name"
+msgstr ""
+"שם ספק המשלוח\n"
+
+#. %s: Order ID.
+#: templates/emails/wcast-email-order-details.php:48
+#, php-format
+msgid "Order number: %s"
+msgstr ""
+"מספר הזמנה:% s\n"
+
+#: templates/emails/plain/tracking-info.php:35
+#, php-format
+msgid "Shipment status changed to %s"
+msgstr "סטטוס המשלוח השתנה ל-% s"
+
+#. Name of the plugin
+msgid "Advanced Shipment Tracking for WooCommerce"
+msgstr "מעקב משלוחים מתקדם עבור ווקומרס"
+
+#. Description of the plugin
+msgid ""
+"Add shipment tracking information to your WooCommerce orders and provide "
+"customers with an easy way to track their orders. Shipment tracking Info "
+"will appear in customers accounts (in the order panel) and in WooCommerce "
+"order complete email."
+msgstr ""
+"הוסף מידע על מעקב משלוחים להזמנות ווקומרס שלך ​​וספק ללקוחות דרך קלה לעקוב "
+"אחר ההזמנות שלהם. מידע על מעקב למשלוח יופיע בחשבונות הלקוחות (בחלונית "
+"ההזמנות) ובאימיילים של אישור ההזמנה."
+
+#. URI of the plugin
+msgid "https://www.zorem.com/products/woocommerce-advanced-shipment-tracking/"
+msgstr ""
+
+#. Author of the plugin
+msgid "zorem"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.zorem.com"
+msgstr ""

@@ -10,7 +10,7 @@
  * License: GPL-2.0+
  * License URI: 
  * Text Domain: woo-advanced-shipment-tracking 
- * WC tested up to: 4.6
+ * WC tested up to: 4.5.2
 */
 
 
@@ -21,7 +21,7 @@ class zorem_woocommerce_advanced_shipment_tracking {
 	 *
 	 * @var string
 	 */
-	public $version = '3.1.4';
+	public $version = '3.1.2';
 	
 	/**
 	 * Initialize the main plugin function
@@ -132,11 +132,9 @@ class zorem_woocommerce_advanced_shipment_tracking {
 		register_activation_hook( __FILE__, array( $this->install, 'woo_shippment_tracking_install' ));
 		
 		add_action( 'add_meta_boxes', array( $this->actions, 'add_meta_box' ) );		
-		add_action( 'woocommerce_view_order', array( $this->actions, 'show_tracking_info_order' ) );	
-		add_filter( 'woocommerce_my_account_my_orders_actions', array( $this->actions, 'show_tracking_info_btn_orders' ), 10, 2 );		
+		add_action( 'woocommerce_view_order', array( $this->actions, 'show_tracking_info_order' ) );		
 		
 		add_action( 'wp_ajax_wc_shipment_tracking_delete_item', array( $this->actions, 'meta_box_delete_tracking' ) );
-		add_action( 'woocommerce_process_shop_order_meta', array( $this->actions, 'save_meta_box' ),0, 2 );	
 		add_action( 'wp_ajax_wc_shipment_tracking_save_form', array( $this->actions, 'save_meta_box_ajax' ) );	
 
 		add_action( 'wp_ajax_reassign_order_status', array( $this, 'reassign_order_status' ) );			
